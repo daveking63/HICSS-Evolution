@@ -20,7 +20,8 @@ This covers track and author information for the years 1977-2017</li>
 https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks
 https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysis/BigramAnalysis</li>
 
-<ul>
+</ul>
+
 The collection of files provided here includes:
 <ul> 
 <li> Data for the analysis of the general demographics of the conference - tracks, minitracks, authors and associated titles
@@ -28,4 +29,4 @@ The collection of files provided here includes:
 <li> Programs for setting up the data and for carrying out the demographic and the textual analysis
 </ul>
 
-(draft in process)
+
