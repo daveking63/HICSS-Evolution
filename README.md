@@ -24,7 +24,7 @@ https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysi
 
 The collection of files provided here includes:
 <ul> 
-<li> Data for the analysis of the general demographics of the conference - tracks, minitracks, authors and associated titles
+<li> Data for the analysis of the general demographics of the conference - tracks, minitracks, authors and associated titles. These data are found in their original coded form for each of the years in <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em> and in row format in the Excel file <em>Trk-MiniT-Pap-Authors.xlsx</em>.
 <li> Data for the analysis of the textual analysis of the titles in the conference proceedings
 <li> Programs for setting up the data and for carrying out the demographic and the textual analysis
 </ul>
