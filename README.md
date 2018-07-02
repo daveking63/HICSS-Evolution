@@ -14,7 +14,6 @@ This file is actually a collection of text files -- one for each of the 50 confe
 
 A segment from the file for 1977 is shown below.  It's typical of the content found in all the individual files. Not only does it illustrate the structure of the TOC content for each file, but it also provides a general idea of the structure of the conference. Basically, each conference consists of a series of tracks (with one or more chairs) each containing a series of minitracks (also with one or more chairs) in turn consisting of at least 3 papers with one or more authors. There is a caveat to this ongoing structure. Before 1977, there were no tracks or minitracks, only sessions with one or more chairs.  For analysis purposes, with these earlier conferences I treated the conference as if it had one track titled "All Sessions" and used the title of the session for the title of the minitrack.
 
-<small>
 HICSS10 1977<br>
 ####<br>
 Track: MANAGEMENT INFORMATION SYSTEMS<br>
@@ -32,9 +31,6 @@ Minitrack Chair: R. Sprague, University of Hawaii<br>
 Paper: Automated Evaluation of the Plan of Internal Control<br>
 Author: R. Miyahara, Fujitsu Ltd.<br>
 ...<br>
-</small>
-
-
 
 <h3>Analyzing the Changing Structure and Participation</h3>
 
