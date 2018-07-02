@@ -10,7 +10,29 @@ In celebration of the 50th anniversary of the Hawaiian International Conference 
 
 The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. While a number of formats were employed over the 2 year duration of the project,  two formats were eventually used to construct the data samples used in the final analyses. Both of these samples are available for download from this repository.
 
-The first of the samples is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. This file is actually a collection of text files -- one for each of the 50 conference years.  Actually, there are only 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  The following segment from the file for 1977 illustrates the structure of the content for each file:
+The first of the samples is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. This file is actually a collection of text files -- one for each of the 50 conference years.  Actually, there are only 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  The segment below from the file for 1977 not only illustrates the structure of the content for each file but provides a general idea of the structure of the conference (i.e. tracks with chairs containing minitracks with chairs each consisting of at least 3 papers with one or more authors):
+
+HICSS10 1977
+####
+Track: MANAGEMENT INFORMATION SYSTEMS
+Track Chair: R. Sprague, University of Hawaii
+Minitrack: Database Processing Software
+Minitrack Chair: G. Kopp, Honofed Corporation
+Paper: A File Structure for Muiple Key Retrieval
+Author: H. Hsu, Colorado State University
+Paper: Information Specification Processing by Use of Iterative Inference from Meta
+Author: T. Cousins, University of Southwestern Louisiana
+Author: W. Dominick, University of Southwestern Louisiana
+...
+Minitrack: Computer-Based Corporal Modeling
+Minitrack Chair: R. Sprague, University of Hawaii
+Paper: Automated Evaluation of the Plan of Internal Control
+Author: R. Miyahara, Fujitsu Ltd.
+...
+
+The second of these samples of data resides in an worksheet named "Details-Trk-MT-PAP-Authors" within the Excel spreadsheet labeled <em>Trk-MiniT-Pap-Authors.xlsx</em>.  This spreadsheet also contains a number of other worksheets providing the initial analysis of the structure and authors. 
+
+Either of the samples of data can be used to perform the data analysis  
 
 
 
