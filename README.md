@@ -8,7 +8,17 @@ In celebration of the 50th anniversary of the Hawaiian International Conference 
 
 <h3>Data Sources</h3>
 
-The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. While a number of formats were employed over the 2 year duration of the project,  data for both parts is provided in two files that are available for download from this repository. The first of these files -- <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em> --contains the refined (scraped and cleaned) data in their original coded format. The second of the files is an Excel spreadsheet -- <em>Trk-MiniT-Pap-Authors.xlsx</em> -- that not only contains the same refined data in row format (see the worksheet entitled "Details-Trk-MT-PAP-Authors") but also a number of other worksheets providing the initial analysis of the structure and authors. Either format can be used to perform additional analysis. 
+The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. While a number of formats were employed over the 2 year duration of the project,  two formats were eventually used to construct the data samples used in the final analyses. Both of these samples are available for download from this repository.
+
+The first of the samples is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. This file is actually a collection of text files -- one for each of the 50 conference years.  Actually, there are only 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  The following segment from the file for 1977 illustrates the structure of the content for each file:
+
+
+
+
+
+content of each of the files is illustrated below for a segment of the entries for 1977
+
+--contains the refined (scraped and cleaned) data in their original coded format. The second of the files is an Excel spreadsheet -- <em>Trk-MiniT-Pap-Authors.xlsx</em> -- that not only contains the same refined data in row format (see the worksheet entitled "Details-Trk-MT-PAP-Authors") but also a number of other worksheets providing the initial analysis of the structure and authors. Either format can be used to perform additional analysis. 
 
 <h3>Changing Structure and Participation</h3>
 
