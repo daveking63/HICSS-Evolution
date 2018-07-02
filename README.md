@@ -6,11 +6,13 @@ Interactive visualizations celebrating 50 years of scientific work at HICSS.  Co
 
 In celebration of the 50th anniversary of the Hawaiian International Conference on System Sciences I undertook an analysis of all the conference proceedings from 1968-2017. The focus was on tracking the changes in content from the early beginnings of IT to the present day.  In part, this turned out to be a massive project because of the substantial changes that occurred from 1968 to 2017 in the structure of the organization, conference and proceedings, as well as the changes in the media used to record the proceedings/abstracts/papers across the years -- from paper handouts, to bound paper volumes, to PDFs, to floppy disks, to CDs, to thumb drives and to online repositories.  The result is that much of the data collection for the years prior to 2000 had to be done manually (typing in various TOCs) or creating various programs to "scrape and clean" the myriad of data formats used from one year to the next. In the end, I decided to focus on analyzing the text from the titles found in the table of contents (TOCs) for each of the 50 track proceedings. In addition to the text, the TOCs also provided information about the changing structure of the conference as well as detailed information about the paper authors (and their affiliations).
 
-<h3>Data Sources</h3>
+<h3>Data Set</h3>
 
-The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. While a number of formats were employed over the 2 year duration of the project,  two formats were eventually used to construct the data samples used in the final analyses. Both of these samples are available for download from this repository.
+The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. As usual, it took a tremendous amount of "scraping and cleaning" (over a number of months) to produce a data set that could be used to perform the analyses. The final dataset is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. It has been included in this repository for download.  If you choose to use it, please site the source.
 
-The first of the samples is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. This file is actually a collection of text files -- one for each of the 50 conference years.  Actually, there are only 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  The segment below from the file for 1977 not only illustrates the structure of the content for each file but provides a general idea of the structure of the conference (i.e. tracks with chairs containing minitracks with chairs each consisting of at least 3 papers with one or more authors):
+This file is actually a collection of text files -- one for each of the 50 conference years.  Unfortunately, there are only really 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  
+
+A segment from the file for 1977 is shown below.  It's typical of the content found in all the individual files. Not only does it illustrate the structure of the TOC content for each file, but it also provides a general idea of the structure of the conference. Basically, each conference consists of a series of tracks (with one or more chairs) each containing a series of minitracks (also with one or more chairs) in turn consisting of at least 3 papers with one or more authors. 
 
 HICSS10 1977
 ####
@@ -30,7 +32,8 @@ Paper: Automated Evaluation of the Plan of Internal Control
 Author: R. Miyahara, Fujitsu Ltd.
 ...
 
-The second of these samples of data resides in an worksheet named "Details-Trk-MT-PAP-Authors" within the Excel spreadsheet labeled <em>Trk-MiniT-Pap-Authors.xlsx</em>.  This spreadsheet also contains a number of other worksheets providing the initial analysis of the structure and authors. 
+The second of these samples of data resides in an worksheet named "Details-Trk-MT-PAP-Authors" within the Excel spreadsheet labeled <em>Trk-MiniT-Pap-Authors.xlsx</em>.  This spreadsheet also contains a number of other worksheets providing the initial analysis of the structure and authors. Within the "Details" worksheet the data for a given paper -- conference number, year, track, minitrack, title and an author name -- is represented by one or more rows depending the number of  
+
 
 Either of the samples of data can be used to perform the data analysis  
 
