@@ -12,30 +12,27 @@ The overall analysis was divided into two parts -- analysis of the changing stru
 
 This file is actually a collection of text files -- one for each of the 50 conference years.  Unfortunately, there are only really 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  
 
-A segment from the file for 1977 is shown below.  It's typical of the content found in all the individual files. Not only does it illustrate the structure of the TOC content for each file, but it also provides a general idea of the structure of the conference. Basically, each conference consists of a series of tracks (with one or more chairs) each containing a series of minitracks (also with one or more chairs) in turn consisting of at least 3 papers with one or more authors. 
+A segment from the file for 1977 is shown below.  It's typical of the content found in all the individual files. Not only does it illustrate the structure of the TOC content for each file, but it also provides a general idea of the structure of the conference. Basically, each conference consists of a series of tracks (with one or more chairs) each containing a series of minitracks (also with one or more chairs) in turn consisting of at least 3 papers with one or more authors. There is a caveat to this ongoing structure. Before 1977, there were no tracks or minitracks, only sessions with one or more chairs.  For analysis purposes, with these earlier conferences I treated the conference as if it had one track titled "All Sessions" and used the title of the session for the title of the minitrack.
 
-HICSS10 1977
-####
-Track: MANAGEMENT INFORMATION SYSTEMS
-Track Chair: R. Sprague, University of Hawaii
-Minitrack: Database Processing Software
-Minitrack Chair: G. Kopp, Honofed Corporation
-Paper: A File Structure for Muiple Key Retrieval
-Author: H. Hsu, Colorado State University
-Paper: Information Specification Processing by Use of Iterative Inference from Meta
-Author: T. Cousins, University of Southwestern Louisiana
-Author: W. Dominick, University of Southwestern Louisiana
-...
-Minitrack: Computer-Based Corporal Modeling
-Minitrack Chair: R. Sprague, University of Hawaii
-Paper: Automated Evaluation of the Plan of Internal Control
-Author: R. Miyahara, Fujitsu Ltd.
-...
-
-The second of these samples of data resides in an worksheet named "Details-Trk-MT-PAP-Authors" within the Excel spreadsheet labeled <em>Trk-MiniT-Pap-Authors.xlsx</em>.  This spreadsheet also contains a number of other worksheets providing the initial analysis of the structure and authors. Within the "Details" worksheet the data for a given paper -- conference number, year, track, minitrack, title and an author name -- is represented by one or more rows depending the number of  
+HICSS10 1977<br>
+####<br>
+Track: MANAGEMENT INFORMATION SYSTEMS<br>
+Track Chair: R. Sprague, University of Hawaii<br>
+Minitrack: Database Processing Software<br>
+Minitrack Chair: G. Kopp, Honofed Corporation<br>
+Paper: A File Structure for Muiple Key Retrieval<br>
+Author: H. Hsu, Colorado State University<br>
+Paper: Information Specification Processing by Use of Iterative Inference from Meta<br>
+Author: T. Cousins, University of Southwestern Louisiana<br>
+Author: W. Dominick, University of Southwestern Louisiana<br>
+...<br>
+Minitrack: Computer-Based Corporal Modeling<br>
+Minitrack Chair: R. Sprague, University of Hawaii<br>
+Paper: Automated Evaluation of the Plan of Internal Control<br>
+Author: R. Miyahara, Fujitsu Ltd.<br>
+...<br>
 
 
-Either of the samples of data can be used to perform the data analysis  
 
 
 
