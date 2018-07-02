@@ -8,7 +8,7 @@ In celebration of the 50th anniversary of the Hawaiian International Conference 
 
 <h3>Data Set</h3>
 
-The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. As usual, it took a tremendous amount of "scraping and cleaning" (over a number of months) to produce a data set that could be used to perform the analyses. The final dataset is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. It has been included in this repository for download.  If you choose to use it, please site the source.
+The overall analysis was divided into two parts -- analysis of the changing structure and participation and text analysis of the changing content. As noted, it took a tremendous amount of data wrangling over a number of months to produce a data set that could be used to perform the analyses. The final dataset is contained in the zipfile labeled <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em>. It is available in this repository for download.  If you choose to use it, please site the source.
 
 This file is actually a collection of text files -- one for each of the 50 conference years.  Unfortunately, there are only really 45 files because proceedings could not be located for 5 of the years including 1975, 1976, 1979, 1989, and 1991.  
 
@@ -33,6 +33,8 @@ Author: R. Miyahara, Fujitsu Ltd.<br>
 ...<br>
 
 <h3>Analyzing the Changing Structure and Participation</h3>
+
+
 
 Much of the analysis
 
