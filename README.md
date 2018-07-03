@@ -4,7 +4,7 @@ Interactive visualizations celebrating 50 years of scientific work at HICSS.  Co
 
 *****  DRAFT IN PROCESS
 
-In celebration of the 50th anniversary of the Hawaiian International Conference on System Sciences I undertook an analysis of all the conference proceedings from 1968-2017. The focus was on tracking the changes in content from the early beginnings of IT to the present day.  In part, this turned out to be a massive project because of the substantial changes that occurred from 1968 to 2017 in the structure of the organization, conference and proceedings, as well as the changes in the media used to record the proceedings/abstracts/papers across the years -- from paper handouts, to bound paper volumes, to PDFs, to floppy disks, to CDs, to thumb drives and to online repositories.  The result is that much of the data collection for the years prior to 2000 had to be done manually (typing in various TOCs) or creating various programs to "scrape and clean" the myriad of data formats used from one year to the next. In the end, I decided to focus on analyzing the text from the titles found in the table of contents (TOCs) for each of the 50 track proceedings. In addition to the text, the TOCs also provided information about the changing structure of the conference as well as detailed information about the paper authors (and their affiliations).
+In celebration of the 50th anniversary of the Hawaiian International Conference on System Sciences I undertook an analysis of all the conference proceedings from 1968-2017. The focus was on tracking the changes in content from the early beginnings of IT to the present day.  In part, this turned out to be a massive project because of the substantial changes that occurred from 1968 to 2017 in the structure of the organization, conference and proceedings, as well as the changes in the media used to record the proceedings/abstracts/papers across the years -- from paper handouts, to bound paper volumes, to PDFs, to floppy disks, to CDs, to thumb drives and to online repositories.  The result is that much of the data collection for the years prior to 2000 had to be done manually (typing in various TOCs) with the add specialized programs designed to "scrape and clean" the myriad of data formats used from one year to the next. In the end, I decided to focus on analyzing the text from the titles found in the table of contents (TOCs) for each of the 50 track proceedings. In addition to the text, the TOCs also provided information about the changing structure of the conference as well as detailed information about the paper authors (and their affiliations).
 
 <h3>Wrangling the Data</h3>
 
@@ -34,52 +34,30 @@ Author: R. Miyahara, Fujitsu Ltd.<br>
 
 The second step in the wrangling process involved combining the individual files into a single data set. Although it should have been straightforward, there were an endless number of issues often resulting from the fact that same names (tracks, minitracks and authors) often varied from one year to the next. For example, sometimes an author was designated by his or her first and last name, other times by the first initial and last name. Similarly, tracks and minitracks names varied from one year to the next even though they had the same chairs and basic content. Finally, from one year to the next it was a "crap shoot" whether locations and affiliations were included in the proceedings. For this reason, they were excluded from the final data set.
 
-Most of this second step was carried out by a series of Python programs that eventually resulted in both a collection of Python dictionaries that could be further analyzed with other Python programs and a tab delimited text file that could be easily read and analyzed by Excel. Neither the Python Programs nor the dictionaries are included in this repository.  However, the Excel sheet with the cleansed data is -- see <EM>HICSS_1968-2017_Trk_MT_Pap_Aut.xlsx<EM>. Within this spreadsheet, each row contains the data associated with one of the authors of a specific paper.  More specifically, each row has the track name, minitrack name, paper title, and an author's name (denoted by first initial and last name). It also includes the unique IDs associated with the names and titles -- these are used to locate items in the Python dictionaries.  What is excluded are the names of the associated track and minitrack chairs. Obviously, there is quite a bit of redundancy from one row to the next because papers usually have multiple co-authors. While this could have easily been stored in a relational or noSQL database, much of the final analysis was done with Excel pivot tables.
+Most of this second step was carried out by a series of Python programs that eventually resulted in both a collection of Python dictionaries that could be further analyzed with other Python programs and a tab delimited text file that could be easily read and analyzed by Excel. Neither the Python Programs nor the dictionaries are included in this repository.  However, the Excel sheet with the cleansed data is -- see <EM>HICSS_1968-2017_Trk_MT_Pap_Aut.xlsx</EM>. Within this spreadsheet, each row contains the data associated with one of the authors of a specific paper.  More specifically, each row has the track name, minitrack name, paper title, and an author's name (denoted by first initial and last name). It also includes the unique IDs associated with the names and titles (note: these were used to locate items in the Python dictionaries and were ignored for most of the structural analysis).  What is excluded are the names of the associated track and minitrack chairs. Obviously, there is quite a bit of redundancy from one row to the next because papers usually have multiple co-authors. While the data could have easily been stored in either a relational or noSQL database, the data was stored in Excel in large part because it simplified the statistical and visual analysis.
 
-Note: Anyone is welcome to download either of the date sets. However, please cite the source referencing my name (Dave King) and this github repository. 
+<h3>Analyzing the Data</h3>
 
-<h3>Analyzing Structure and Participation</h3>
+Like the wrangling, the analysis of the final data set proceeded in two steps. First, the evolution of the structural changes was examined. Second, the evolution of the content (i.e. text in the paper titles) was explored.
 
-Like the wrangling, the analysis of the final data set proceeded in two steps.  First, the Excel spreadsheet was used as the basis of a visual analysis the changing structure and participation over the years over the years.  
+<bold>Changes in Structural and Participation</bold>
 
-<OL>
-  <LI> Python was used to read each of the individual files and to merge the data into a python dictionary containing an entry for each of the papers
-  <LI> xxx
-</OL>
-Python was used to create a series of dictionaries c
+Besides intellectual curiousity, a major impetus behind this analysis is that the HICSS leadership wanted to post this information to the HICSS50 website to serve as a visual reminder of the conferences long history and to entice viewers to attend the 50th anniversary meeting. They had decided to use the public Tableau site which provides a straightforward way to produce data visualizations for online public consumption. Towards this end, pivot tables were used with the Excel dataset to produce various text files that could be analyzed with Tableau.  
 
-Much of the analysis
+The link to the visualizations still exists and is available on the HICSS web site (http://hicss.hawaii.edu/ -- scroll down to the middle of the page to access the HICSS Evolution link). The HICSS link will lead to https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts which is a subset of the data from 1977-2017. To access the full set of data (from 1968 to 2017) go to: https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks. 
 
-History of Tracks (1968-2017) : Year Start and End
-Summary of Key Counts by Year (1968-2017)
-Summary of Key Ratios (1977-2017)
-Number and % of Minitracks by Track and Year (1977-2017)
-Number and % of Papers by Track and Year (1977-2017)
-Number and % of Authors by Track and Year (1977-2017)
-Area Charts - Number per Year by Track (1977-2017)
-Mean Number of Authors per Paper by Year and Track (1968-2017)
-Authorship: Papers by Number of Authors and Authors by Number of Papers (1968-2017)
+Regardless, either set of visualizations will provide information about:
 
-Various data formats were employed with this project
+History of Tracks (1968-2017) : Year Start and End<br>
+Summary of Key Counts by Year (1968-2017)<br>
+Summary of Key Ratios (1977-2017)<br>
+Number and % of Minitracks by Track and Year (1977-2017)<br>
+Number and % of Papers by Track and Year (1977-2017)<br>
+Number and % of Authors by Track and Year (1977-2017)<br>
+Area Charts - Number per Year by Track (1977-2017)<br>
+Mean Number of Authors per Paper by Year and Track (1968-2017)<br>
+Authorship: Papers by Number of Authors and Authors by Number of Papers (1968-2017)<br>
 
-<ul> 
-<li> Data for the analysis of the general demographics of the conference - tracks, minitracks, authors and associated titles. These data are found in their original coded form in the zipfile <em>HICSS Conference Proceedings TOCs -1968-2017.zip</em> and in row format in the worksheet "Details-Trk-MT-PAP-Authors" in the Excel file <em>Trk-MiniT-Pap-Authors.xlsx</em>. For those who are interested in the demographics its probably best to use the worksheet rather than the original coded form.
-<li> Data for the analysis of the textual analysis of the titles in the conference proceedings. Again, the underlying data for this analysis comes from the 
-<li> Programs for setting up the data and for carrying out the demographic and the textual analysis
-</ul>
-
-A small number of potential visual analyses of the data can be found at:
-
-<ul>
-<li> The HICSS conference site --  http://hicss.hawaii.edu/ which covers 1977-2017 (selecting HICSS Evolution) -- which leads to Kaveh Abhari's tableau site: 
-
-https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts.  
-
-This covers track and author information for the years 1977-2017</li>
-
-<li> My public tableau site which provides all of the above, as well as the textual analysis for the years from 1968-2017:
-
-https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks
 https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysis/BigramAnalysis</li>
 
-</ul>
+
