@@ -11,7 +11,7 @@ In celebration of the 50th anniversary of the Hawaiian International Conference 
 Just like many other data analysis projects, "data wrangling" took the bulk of the time (measured in months, not days). The primary result from the wrangling process was an Excel file <EM>HICSS_1968-2017_Trk_MT_Pap_Aut.xlsx</EM> consisting of ~39K rows of data containing the following fields for each row:
 
 | CID | CNum | CYear | TID | TName | TAbbrev | MID | MName | PID | PTitle | AID | AName |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Here,
 
@@ -57,5 +57,5 @@ The text analysis of the data set was carried out in two steps. First, the data 
 
 Like the analysis of the organizational and structural changes, the analysis of the changes in textual content were subsequently visualized and summarized using Tableau's public website.  This was done by creating various tab delimited text files from the Python analysis.  The final results can be found at:
 
-https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysis/
+https://public.tableau.com/profile/david.king7957#!
 
