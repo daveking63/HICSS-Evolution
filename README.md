@@ -51,10 +51,11 @@ Authorship: Papers by Number of Authors and Authors by Number of Papers (1968-20
 
 **Changes in Content**
 
-Of less interest to the general HICSS population, but of more interest to me, was the changes in "content" over the years.  Ideally, this analysis would have involved an analysis of either the paper abstracts or   As noted, the changes in conference content were analyzed by performing various sorts of textual analysis on the paper titles.  This was carried out by first generating a data set containing a list of all the titles along with the year, track and minitracks in which they appeared.  Next, the file was read into a Python program which utilized Python's natural language toolkit (NLTK) to extract the terms, stems, bigrams and trigrams in the titles.  Various statistical analyses -- primarily frequency counts and crosstabulations by year, track and minitracks - were then performed on the extractions (e.g. answering questions such as: What were the top 10 terms, stems, bigrams and trigrams by year?).
+Of less interest to the general HICSS population, but of more interest to me, was the changes in "content" over the years.  It's the changes in content that really mirror the changes in the terms, topics, ideas and knowledge emanating from the fields of Information Systems and Information Technology over the years. Unfortunately, it was virtually impossible to access this information for all 50 years.  For this reason only the paper titles were used.
 
-In addition to the statistical analysis, 
+The text analysis of the data set was carried out in two steps. First, the data set was read into a Python program in order to create a corpus from the paper titles. Next, Python's natural language toolkit (NLTK) was used to extract the terms, stems, bigrams and trigrams in the titles.  Various statistical analyses -- primarily frequency counts and crosstabulations by year, track and minitracks - were then performed on the extractions (e.g. answering questions such as: What were the top 10 terms, stems, bigrams and trigrams by year?). Finally, dimensionality reduction was performed on the corpus to extract the key "topics" underlying the terms, stems, etc. In this case the specific reduction algorithm that was used is called *non-negative matrix factorization* which is part of Python's scikit-learning package (http://scikit-learn.org/stable/index.html).   
 
-In addition to the statistical analysis
+Like the analysis of the organizational and structural changes, the analysis of the changes in textual content were subsequently visualized and summarized using Tableau's public website.  This was done by creating various tab delimited text files from the Python analysis.  The final results can be found at:
 
+https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysis/
 
