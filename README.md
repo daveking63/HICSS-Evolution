@@ -23,17 +23,17 @@ Obviously, this format results in quite a bit of redundancy from one row to the 
 
 <h3>Analyzing the Data</h3>
 
-The analysis of the data set had two foci. 
+The analysis of the data set had two phases.  The first of these focused on the evolution of the organization and structure of the conference.  The second on the evolution of the content.
 
-**Changes in Structural and Participation**
+**Changes in Organization and Structure**
 
-Besides intellectual curiousity, a major impetus behind this analysis is that the HICSS leadership wanted to post this information to the HICSS50 website to serve as a visual reminder of the conferences long history and to entice viewers to attend the 50th anniversary meeting. They had decided to use the public Tableau site which provides a straightforward way to produce data visualizations for online public consumption. Towards this end, pivot tables were used with the Excel dataset to produce various text files that could be analyzed with Tableau.  
+Besides intellectual curiousity, a major impetus behind this analysis is that the HICSS leadership wanted to post this information to the HICSS50 website to serve as a visual reminder of HICSS' long history and to entice viewers to attend the 50th anniversary meeting. Towards this end, they decided to rely on Tableau's public website in order to: (1) easily produce a visual analysis of the data; and (2) seamless link this analysis to the HICSS site.
 
-The link to the visualizations still exists and is available on the HICSS web site (http://hicss.hawaii.edu/ -- scroll down to the middle of the page to access the HICSS Evolution link). The HICSS link will lead to:
+Even though the 50th anniversary has come and gone, the link to the visualizations still exists. It can be accessed by going to the HICSS site -- http://hicss.hawaii.edu/ -- scrolling down to the middle of the page, and clicking on *HICSS Evolution*. This will link to a project on the Tableau site:
 
 https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts
 
-The data can also be access at:
+The data can also be accessed at:
 
 https://public.tableau.com/profile/david.king7957#!/
 
@@ -51,6 +51,10 @@ Authorship: Papers by Number of Authors and Authors by Number of Papers (1968-20
 
 **Changes in Content**
 
-As noted, the changes in conference content were analyzed by performing various sorts of textual analysis on the paper titles.  This was carried out by first generating a data set containing a list of all the titles along with the year, track and minitracks in which they appeared.  Next, the file was read into a Python program which utilized Python's natural language toolkit (NLTK) to extract the terms, stems, bigrams and trigrams in the titles.  Various statistical analyses were then performed
+Of less interest to the general HICSS population, but of more interest to me, was the changes in "content" over the years.  Ideally, this analysis would have involved an analysis of either the paper abstracts or   As noted, the changes in conference content were analyzed by performing various sorts of textual analysis on the paper titles.  This was carried out by first generating a data set containing a list of all the titles along with the year, track and minitracks in which they appeared.  Next, the file was read into a Python program which utilized Python's natural language toolkit (NLTK) to extract the terms, stems, bigrams and trigrams in the titles.  Various statistical analyses -- primarily frequency counts and crosstabulations by year, track and minitracks - were then performed on the extractions (e.g. answering questions such as: What were the top 10 terms, stems, bigrams and trigrams by year?).
+
+In addition to the statistical analysis, 
+
+In addition to the statistical analysis
 
 
