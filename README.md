@@ -2,7 +2,7 @@
 
 Interactive visualizations celebrating 50 years of scientific work at HICSS.  Code underlying visual displays of "HICSS Evolution" selection at  http://hicss.hawaii.edu/
 
-*****  DRAFT IN PROCESS
+<h3>Introduction</h3>
 
 In celebration of the 50th anniversary of the Hawaiian International Conference on System Sciences I undertook an analysis of all the conference proceedings from 1968-2017. The focus was on tracking the changes in both the structure and the content of the conference from the early beginnings of IT to the present day.  In large part, this turned out to be a massive project not only because of the the structure of the organization, conference and proceedings but also because of the changes in the media used to record the proceedings/abstracts/papers across the years -- from paper handouts, to bound paper volumes, to PDFs, to floppy disks, to CDs, to thumb drives and to online repositories.  The result is that much of the data collection for the years prior to mid-90s had to be done manually -- typing in various TOCs -- and specialized programs had to be created to "scrape and clean" the myriad of data formats used from one year to the next. In the end, I decided to focus on analyzing data found in the table of contents (TOCs) for each of the 50 track proceedings. The TOCs provided information about the changing structure of the conference, as well as detailed information about the paper titles and the associated authors.
 
@@ -21,7 +21,7 @@ Here,
 
 Obviously, this format results in quite a bit of redundancy from one row to the next because most papers have multiple co-authors. While the size of the data set could have been reduced by storing it in either a relational or noSQL database, the data was stored in Excel primarily because it simplified the process of analyzing the data (much of which required the construction of simple frequency distributions and crosstabs).
 
-<h3>Analyzing the Data</h3>
+<h3>Analysis</h3>
 
 The analysis of the data set had two phases.  The first of these focused on the evolution of the organization and structure of the conference.  The second on the evolution of the content.
 
@@ -59,3 +59,10 @@ Like the analysis of the organizational and structural changes, the analysis of 
 
 https://public.tableau.com/profile/david.king7957#!
 
+**Final Note**
+
+Part of this analysis was used in conjunction with further analysis of the data to examine the changes that have occurred in the field of knowledge management.  This analysis was formally published in Communications of the Association for Information systems.  See:
+
+*Knowledge, Innovation, and Entrepreneurial Systems at HICSS.* By Jennex, Murray E.; Dittes, Sven; Smolnik, Stefan; Croasdell, David T.; King, David: Knowledge, Innovation, and Entrepreneurial Systems at HICSS, in Communications of the Association for Information Systems, 2018
+
+at http://aisel.aisnet.org/cais/.
