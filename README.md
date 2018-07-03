@@ -40,7 +40,7 @@ Most of this second step was carried out by a series of Python programs that eve
 
 Like the wrangling, the analysis of the final data set proceeded in two steps. First, the evolution of the structural changes was examined. Second, the evolution of the content (i.e. text in the paper titles) was explored.
 
-<bold>Changes in Structural and Participation</bold>
+**Changes in Structural and Participation**
 
 Besides intellectual curiousity, a major impetus behind this analysis is that the HICSS leadership wanted to post this information to the HICSS50 website to serve as a visual reminder of the conferences long history and to entice viewers to attend the 50th anniversary meeting. They had decided to use the public Tableau site which provides a straightforward way to produce data visualizations for online public consumption. Towards this end, pivot tables were used with the Excel dataset to produce various text files that could be analyzed with Tableau.  
 
@@ -48,9 +48,9 @@ The link to the visualizations still exists and is available on the HICSS web si
 
 https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts
 
-which is a subset of the data from 1977-2017. To access the full set of data (from 1968 to 2017) go to:
+The data can also be access at:
 
-https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks. 
+https://public.tableau.com/profile/david.king7957#!/
 
 Regardless, either set of visualizations will provide information about:
 
@@ -64,6 +64,8 @@ Area Charts - Number per Year by Track (1977-2017)<br>
 Mean Number of Authors per Paper by Year and Track (1968-2017)<br>
 Authorship: Papers by Number of Authors and Authors by Number of Papers (1968-2017)<br>
 
-https://public.tableau.com/profile/david.king7957#!/vizhome/HICSSTitleTxtAnalysis/BigramAnalysis</li>
+**Changes in Content**
+
+As noted, the changes in conference content were analyzed by performing various sorts of textual analysis on the paper titles.  This was carried out by first generating a data set containing a list of all the titles along with the year, track and minitracks in which they appeared.  Next, the file was read into a Python program which utilized Python's natural language toolkit (NLTK) to extract the terms, stems, bigrams and trigrams in the titles.  Various statistical analyses were then performed
 
 
