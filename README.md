@@ -44,7 +44,13 @@ Like the wrangling, the analysis of the final data set proceeded in two steps. F
 
 Besides intellectual curiousity, a major impetus behind this analysis is that the HICSS leadership wanted to post this information to the HICSS50 website to serve as a visual reminder of the conferences long history and to entice viewers to attend the 50th anniversary meeting. They had decided to use the public Tableau site which provides a straightforward way to produce data visualizations for online public consumption. Towards this end, pivot tables were used with the Excel dataset to produce various text files that could be analyzed with Tableau.  
 
-The link to the visualizations still exists and is available on the HICSS web site (http://hicss.hawaii.edu/ -- scroll down to the middle of the page to access the HICSS Evolution link). The HICSS link will lead to https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts which is a subset of the data from 1977-2017. To access the full set of data (from 1968 to 2017) go to: https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks. 
+The link to the visualizations still exists and is available on the HICSS web site (http://hicss.hawaii.edu/ -- scroll down to the middle of the page to access the HICSS Evolution link). The HICSS link will lead to:
+
+https://public.tableau.com/profile/kaveh.abhari#!/vizhome/HICSS50_0/AreaChartsofCounts
+
+which is a subset of the data from 1977-2017. To access the full set of data (from 1968 to 2017) go to:
+
+https://public.tableau.com/profile/david.king7957#!/vizhome/HICSS50/HistoryofTracks. 
 
 Regardless, either set of visualizations will provide information about:
 
