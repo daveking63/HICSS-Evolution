@@ -32,11 +32,15 @@ Paper: Automated Evaluation of the Plan of Internal Control<br>
 Author: R. Miyahara, Fujitsu Ltd.<br>
 ...<br>
 
-The second step in the wrangling process involved combining the individual files into a single data set. Although it should have been straightforward, there were an endless number of issues often resulting from the fact that same names (tracks, minitracks and authors) often varied from one year to the next (e.g. sometimes an author was designated by his or her first and last name, other times by the first initial and last name, similar tracks and minitracks names varied from one year to the next even though they had the same chairs and basic content). Most of this step was carried out by a series of Python programs that eventually resulted in both a collection of Python dictionaries that could be further analyzed with other Python programs and a tab delimited text file that could be easily read and analyzed by Excel.  Neither the Python Programs nor the dictionaries are included in this repository.  The Excel sheet with the cleansed data is -- see <EM>   
+The second step in the wrangling process involved combining the individual files into a single data set. Although it should have been straightforward, there were an endless number of issues often resulting from the fact that same names (tracks, minitracks and authors) often varied from one year to the next. For example, sometimes an author was designated by his or her first and last name, other times by the first initial and last name. Similarly, tracks and minitracks names varied from one year to the next even though they had the same chairs and basic content. Finally, from one year to the next it was a "crap shoot" whether locations and affiliations were included in the proceedings. For this reason, they were excluded from the final data set.
 
-<h3>Analyzing the Data Set</h3>
+Most of this second step was carried out by a series of Python programs that eventually resulted in both a collection of Python dictionaries that could be further analyzed with other Python programs and a tab delimited text file that could be easily read and analyzed by Excel. Neither the Python Programs nor the dictionaries are included in this repository.  However, the Excel sheet with the cleansed data is -- see <EM>HICSS_1968-2017_Trk_MT_Pap_Aut.xlsx<EM>. Within this spreadsheet, each row contains the data associated with one of the authors of a specific paper.  More specifically, each row has the track name, minitrack name, paper title, and an author's name (denoted by first initial and last name). It also includes the unique IDs associated with the names and titles -- these are used to locate items in the Python dictionaries.  What is excluded are the names of the associated track and minitrack chairs. Obviously, there is quite a bit of redundancy from one row to the next because papers usually have multiple co-authors. While this could have easily been stored in a relational or noSQL database, much of the final analysis was done with Excel pivot tables.
 
-The analysis proceeded in a series of steps:
+Note: Anyone is welcome to download either of the date sets. However, please cite the source referencing my name (Dave King) and this github repository. 
+
+<h3>Analyzing Structure and Participation</h3>
+
+Like the wrangling, the analysis of the final data set proceeded in two steps.  First, the Excel spreadsheet was used as the basis of a visual analysis the changing structure and participation over the years over the years.  
 
 <OL>
   <LI> Python was used to read each of the individual files and to merge the data into a python dictionary containing an entry for each of the papers
